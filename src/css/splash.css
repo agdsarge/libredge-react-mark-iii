@@ -1,0 +1,30 @@
+
+div.splashBackground {
+    color: ivory;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+div.veryLarge {
+    font-size: 82px;
+    color: ivory;
+}
+
+div.splashBox {
+    background-color: rgba(112,128,144,0.65);
+    backdrop-dilter: blur(5px);
+    marginTop: 20px;
+    max-width: fit-content;
+    padding: 20px;
+}
+
+div.paintingInfo {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+span.lg {
+    color: lightgreen;
+}

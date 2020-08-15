@@ -1,0 +1,197 @@
+div.supra {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1f/George_Goodwin_Kilburne_A_good_hand.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+
+div.navBarMenuSemantic {
+    background-color: slategrey;
+}
+
+div.newGameFormContainer {
+    padding: 20px;
+    color: ivory;
+}
+
+div.leftDummy {
+    position: absolute;
+    left: 5px;
+    height: inherit;
+
+}
+
+div.rightDummy {
+    position: absolute;
+    right: 5px;
+    height: inherit;
+}
+
+div.centerDummy {
+    position: absolute;
+    top: 5px;
+    width: 95%;
+
+}
+div.trickSpace {
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border-style: solid;
+    border-color: cyan; */
+    height: 300px;
+    width: 500px;
+
+}
+
+div.mainGrid {
+    margin-top: 10px;
+    height: 90%;
+}
+
+div#auction {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+div#focusContainer {
+    background-color: rgba(112, 128, 144, 0.68);
+    height: 100%;
+    backdrop-filter: blur(5px);
+    /* padding: 20px; */
+}
+
+div.lobbyList {
+    padding: 20px;
+}
+
+div#sideContainer {
+    backdrop-filter: blur(5px);
+    background-color: rgba(112, 128, 144, 0.68);
+    margin-right: 50px;
+    margin-top: 60px;
+    padding: 20px;
+    height: 60%;
+}
+
+div#cardTable {
+    background-image: url('https://img.fabricgateway.com/66/66b2b5ad5874d6f927380a7c0ed63642.jpeg');
+
+    height: 100%;
+}
+
+div.custom-select {
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    background: linear-gradient( rgba(112, 128, 144, 0.35), rgba(112, 128, 144, 0.35) ), url('https://upload.wikimedia.org/wikipedia/commons/1/11/Anglo-American_card_suits.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    width: 50%;
+    height:500px;
+    width: inherit;
+
+}
+
+#submit-select {
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+div.east-select{
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    top: 250px;
+
+}
+div.west-select{
+    position: absolute;
+    left: 20px;
+    width: 200px;
+    top: 250px
+
+}
+div.south-select{
+    position: absolute;
+    width: 200px;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto
+
+}
+
+.myHand {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    width: 95%;
+}
+
+.card-container {
+
+  flex: 1 0 0;
+  overflow-x: hidden;
+}
+
+.card-container:last-child {
+  flex: 0 0 auto;
+}
+
+.playing-card {
+    width: 100px;
+    height: 150px;
+}
+
+.dummy-side-card {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    right: 10px;
+}
+
+.centeredPosition {
+    position: absolute;
+    left: 40%;
+    bottom: 175px;
+    color: ivory;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
